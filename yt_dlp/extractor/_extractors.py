@@ -24,6 +24,10 @@ from .youtube import (  # Youtube is moved to the top to improve performance
     YoutubeShortsAudioPivotIE
 )
 
+from .kamababa import (
+	Kamababa2IE
+)
+
 from .abc import (
     ABCIE,
     ABCIViewIE,
